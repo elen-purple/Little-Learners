@@ -1,0 +1,60 @@
+<section class="hero">
+  <div class="container">
+    <picture>
+      <source
+        srcset="
+          ./img/desktop/hero/hero-img@1x-desktop.webp 1x,
+          ./img/desktop/hero/hero-img@2x-desktop.webp 2x
+        "
+        media="(min-width: 1628px)"
+      />
+      <source
+        srcset="
+          ./img/tablet/hero/hero-img@1x-tablet.webp 1x,
+          ./img/tablet/hero/hero-img@2x-tablet.webp 2x
+        "
+        media="(min-width: 1312px)"
+      />
+      <source
+        srcset="
+          ./img/mobile/hero/hero-img@1x-mobile.webp 1x,
+          ./img/mobile/hero/hero-img@2x-mobile.webp 2x
+        "
+        media="(max-width: 1311px)"
+      />
+      <img
+        class="hero__img"
+        width="358"
+        height="410"
+        src="./img/mobile/hero/hero-img@1x-mobile.webp 1x"
+        alt="A boy and a girl are sitting on the floor"
+      />
+    </picture>
+    <div class="hero__block">
+      <h2 class="subtitle">Welcome to Little Learners Academy</h2>
+      <h1 class="title">
+        Where Young Minds Blossom and
+        <span class="hero__accent">Dreams Take Flight.</span>
+      </h1>
+      <p class="hero__desc">
+        Our kinder garden school provides a nurturing and stimulating
+        environment, fostering a love for learning that lasts a lifetime. Join
+        us as we embark on an exciting educational journey together!
+      </p>
+      <ul class="hero__list">
+        <li class="hero__item">
+          <h3 class="hero__header">+7000</h3>
+          <p class="hero__text">Students Passed Out</p>
+        </li>
+        <li class="hero__item">
+          <h3 class="hero__header">+37</h3>
+          <p class="hero__text">Awards & Recognitions</p>
+        </li>
+        <li class="hero__item">
+          <h3 class="hero__header">+15</h3>
+          <p class="hero__text">Experience Educators</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
