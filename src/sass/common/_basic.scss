@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+}
+
+*::selection {
+    background-color: $orange-10;
+    color: $white;
+}
