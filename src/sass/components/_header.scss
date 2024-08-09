@@ -1,0 +1,207 @@
+.header {
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+    &__block {
+        margin-bottom: 12px;
+        padding: 10px 0;
+        border-radius: 6px;
+        border: 2px solid $grey-20;
+        background-image: url(../img/mobile/header/header-bg@1x-mobile.webp);
+        background-position: center;
+        background-size: cover;
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../img/mobile/header/header-bg@2x-mobile.webp);
+        }
+    }
+
+    &__grab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__text {
+        color: $grey-20;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+
+    &__arrow {
+        fill: $grey-20;
+    }
+
+    &__nav {
+        border-radius: 8px;
+        border: 2px solid $grey-20;
+        background: $white;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    &__logo {
+        border-right: 2px solid $grey-20;
+        padding: 16px 20px;
+        line-height: 0;
+        background-color: $orange-10;
+
+        &:hover {
+            background-color: $orange-20;
+        }
+    }
+
+    &__icon {
+        fill: $grey-20;
+    }
+
+    &__list {
+        display: none;
+    }
+
+    &__item {}
+
+    &__link {}
+
+    &__btn {
+        background-color: $orange-60;
+        padding: 24px 33.5px;
+        line-height: 0;
+        border-left: 2px solid $grey-20;
+
+        &:hover {
+            background-color: $orange-50;
+        }
+    }
+
+    &__menu {
+        fill: $grey-20;
+    }
+}
+
+@media screen and (min-width: 1312px) {
+    .header {
+        padding: 16px 0;
+
+        &__block {
+            background-image: url(../img/tablet/header/header-bg@1x-tablet.webp);
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: url(../img/tablet/header/header-bg@2x-tablet.webp);
+            }
+        }
+
+        &__grab {
+            gap: 14px;
+        }
+
+        &__text {
+            font-size: 16px;
+        }
+
+        &__arrow {
+            width: 24px;
+            height: 24px;
+        }
+
+        &__nav {}
+
+        &__logo {}
+
+        &__icon {
+            width: 155px;
+            height: 34px;
+        }
+
+        &__list {
+            display: flex;
+        }
+
+        &__item {
+            border-left: 2px solid $grey-20;
+
+            &:hover {
+                background: $orange-60;
+            }
+
+            &:nth-child(6) {
+                background: $orange-30;
+
+                &:hover {
+                    background: $orange-20;
+                }
+            }
+        }
+
+        &__link {
+            display: block;
+            color: $grey-20;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            padding: 21px 30px;
+        }
+
+        &__btn {
+            display: none;
+        }
+
+    }
+}
+
+@media screen and (min-width: 1628px) {
+    .header {
+        padding: 18px 0;
+
+        &__block {
+            background-image: url(../img/desktop/header/header-bg@1x-desktop.webp);
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: url(../img/desktop/header/header-bg@2x-desktop.webp);
+            }
+        }
+
+        &__grab {}
+
+        &__text {
+            font-size: 20px;
+        }
+
+        &__arrow {
+            width: 30px;
+            height: 30px;
+        }
+
+        &__nav {}
+
+        &__logo {
+            padding: 20px 24px;
+        }
+
+        &__icon {
+            width: 183px;
+            height: 40px;
+        }
+
+        &__list {}
+
+        &__item {}
+
+        &__link {
+            font-size: 20px;
+            padding: 25px 34px;
+        }
+
+        &__btn {}
+
+    }
+}

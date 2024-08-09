@@ -10,3 +10,13 @@
 @import "./sections/academics/students";
 @import "./sections/academics/rooms";
 @import "./components/footer";
+
+.header__item {
+    &:nth-child(3) {
+        background: $orange-60;
+
+        &:hover {
+            background: $orange-50;
+        }
+    }
+}
