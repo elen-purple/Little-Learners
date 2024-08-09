@@ -11,3 +11,13 @@
 @import "./sections/index/questions";
 @import "./sections/index/navigation";
 @import "./components/footer";
+
+.header__item {
+    &:nth-child(1) {
+        background: $orange-60;
+
+        &:hover {
+            background: $orange-50;
+        }
+    }
+}

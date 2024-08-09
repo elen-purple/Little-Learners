@@ -11,3 +11,13 @@
 @import "./sections/about/history";
 @import "./sections/about/team";
 @import "./components/footer";
+
+.header__item {
+    &:nth-child(2) {
+        background: $orange-60;
+
+        &:hover {
+            background: $orange-50;
+        }
+    }
+}

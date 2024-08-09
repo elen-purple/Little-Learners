@@ -9,3 +9,13 @@
 @import "./sections/admission/process";
 @import "./sections/admission/structure";
 @import "./components/footer";
+
+.header__item {
+    &:nth-child(4) {
+        background: $orange-60;
+
+        &:hover {
+            background: $orange-50;
+        }
+    }
+}

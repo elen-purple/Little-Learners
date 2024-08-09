@@ -10,3 +10,13 @@
 @import "./sections/life/events";
 @import "./sections/life/support";
 @import "./components/footer";
+
+.header__item {
+    &:nth-child(5) {
+        background: $orange-60;
+
+        &:hover {
+            background: $orange-50;
+        }
+    }
+}
