@@ -4,6 +4,8 @@
 @import "./common/basic";
 @import "./common/container";
 
+@import url('../../node_modules/swiper/swiper-bundle.min.css');
+
 @import "./components/header";
 @import "./sections/index/hero";
 @import "./sections/index/benefits";
